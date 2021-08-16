@@ -1,5 +1,14 @@
 # ProcessoSeletivo
 Processo seletivo para vaga de desenvolvedor júnior na empresa kryptontech
+foi usado o banco de dados MySql, localhost na porta padrão(3306).
+Passo 1- Clonar o repositório.
+Passo 2- Possuir o xampp ou outro apache para iniciar o banco de dados.
+Passo 3- Iniciar o apache e o mysql.
+Passo 4- Executa os comandos sql em tabelas.sql para preparar o banco.
+Passo 5- Acessar  url http://localhost/kryptontech/ProcessoSeletivo/tarefa-1/view/, para inicicar a tarefa 1.
+Passo 6- Acessar o Postman e enviar uma requisição com o method POST na url http://localhost/kryptontech/ProcessoSeletivo/tarefa-2/api/public_html/api/rotina/1
+Passo 7- Em body no campo form-data, passar no valor key o valor page, e em value o numero da página que deseja o acesso.
+
 tarefa 1
 Foi criado uma tabela de carro para novas inserções e exclusão, a tabela se encontra em tabelas.sql.
 o sistema traz os dados consumido da api disponibilizada, e para novos cadastrados, faz a consulta do banco interno, sendo possivel excluir somente os carros cadastrados.

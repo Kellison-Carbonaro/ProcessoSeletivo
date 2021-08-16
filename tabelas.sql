@@ -1,3 +1,4 @@
+CREATE DATABASE kryptontec;
 CREATE TABLE `kryptontec`.`carros` ( `id_carro` INT(11) NOT NULL , `marca_carro` VARCHAR(45) NOT NULL , `modelo_carro` VARCHAR(45) NOT NULL , `cor_carro` VARCHAR(45) NOT NULL , `fk_id_motor_motores` INT(11) NOT NULL ) ENGINE = InnoDB;
 CREATE TABLE `kryptontec`.`rotina` ( `atividade` VARCHAR(100) NOT NULL , `hora` TIME NOT NULL ) ENGINE = InnoDB;
 
